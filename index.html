@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fan Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+
+
+<div class="container">
+
+    <!-- START SCREEN -->
+    <section id="start" class="screen active">
+        <h1>Welcome to the What Type of Fan are you Quiz?</h1>
+     
+        <button onclick="goTo('q1')">Start Quiz</button>
+    </section>
+
+    <!-- QUESTION 1 -->
+    <section id="q1" class="screen">
+        <h2>Question 1</h2>
+        <p>How do you react when you like something?</p>
+        <button onclick="goTo('q2')">I get excited and talk about it</button>
+        <button onclick="goTo('q2')">I quietly enjoy it</button>
+        <button onclick="goTo('q2')">I pretend not to like it</button>
+        <button onclick="goTo('q2')">I write a 40‑page essay about it</button>
+    </section>
+
+    <!-- QUESTION 2 -->
+    <section id="q2" class="screen">
+        <h2>Question 2</h2>
+        <p>How much do you know about your favorite thing?</p>
+        <button onclick="goTo('q3')">Everything</button>
+        <button onclick="goTo('q3')">A normal amount</button>
+        <button onclick="goTo('q3')">Not much</button>
+        <button onclick="goTo('q3')">More than the guy who insists you know nothing</button>
+    </section>
+
+    <!-- QUESTION 3 -->
+    <section id="q3" class="screen">
+        <h2>Question 3</h2>
+        <p>A guy screams about his favorite band. What is he?</p>
+        <button onclick="goTo('q4')">Passionate</button>
+        <button onclick="goTo('q4')">Dedicated</button>
+        <button onclick="goTo('q4')">A true fan</button>
+        <button onclick="goTo('q4')">Literally just vibing</button>
+    </section>
+
+    <!-- QUESTION 4 -->
+<section id="q4" class="screen">
+    <h2>Question 4</h2>
+    <p>Pick something you enjoy.</p>
+    <button onclick="goTo('q5')">Sports</button>
+    <button onclick="goTo('q5')">Makeup</button>
+    <button onclick="goTo('q5')">Sci‑fi</button>
+    <button onclick="goTo('q5')">Romance</button>
+</section>
+
+<!-- QUESTION 5 -->
+<section id="q5" class="screen">
+    <h2>Question 5</h2>
+    <p>How many times must you prove you're a “real fan”?</p>
+    <button onclick="goTo('q6')">1</button>
+    <button onclick="goTo('q6')">10</button>
+    <button onclick="goTo('q6')">100</button>
+    <button onclick="goTo('q6')">Until the sun explodes</button>
+</section>
+
+<!-- QUESTION 6 -->
+<section id="q6" class="screen">
+    <h2>Question 6</h2>
+    <p>Someone sees you enjoying something. What do they assume?</p>
+    <button onclick="goTo('q7')">You only like it because it's trendy</button>
+    <button onclick="goTo('q7')">You only like it because a boy likes it</button>
+    <button onclick="goTo('q7')">You only like it because it's popular</button>
+    <button onclick="goTo('q7')">You only like it because you're a fangirl</button>
+</section>
+
+<!-- QUESTION 7 -->
+<section id="q7" class="screen">
+    <h2>Question 7</h2>
+    <p>How do you express enthusiasm?</p>
+    <button onclick="goTo('q8')">Loudly</button>
+    <button onclick="goTo('q8')">Quietly</button>
+    <button onclick="goTo('q8')">Internally</button>
+    <button onclick="goTo('q8')">Not at all</button>
+</section>
+
+<!-- QUESTION 8 -->
+<section id="q8" class="screen">
+    <h2>Question 8</h2>
+    <p>Which stereotype do people try to put you in?</p>
+    <button onclick="goTo('q9')">Overly emotional</button>
+    <button onclick="goTo('q9')">Too dramatic</button>
+    <button onclick="goTo('q9')">Too invested</button>
+    <button onclick="goTo('q9')">“Not a real fan”</button>
+</section>
+
+<!-- QUESTION 9 -->
+<section id="q9" class="screen">
+    <h2>Question 9</h2>
+    <p>How do you avoid being labeled “cringe”?</p>
+    <button onclick="goTo('q10')">You don’t</button>
+    <button onclick="goTo('q10')">You literally can’t</button>
+    <button onclick="goTo('q10')">The label is applied automatically</button>
+    <button onclick="goTo('q10')">Cringe is a social construct</button>
+</section>
+
+<!-- QUESTION 10 -->
+<section id="q10" class="screen">
+    <h2>Question 10</h2>
+    <p>Someone asks you to “name three songs” from your favorite artist. What do you do?</p>
+    <button onclick="goTo('q11')">Name ten</button>
+    <button onclick="goTo('q11')">Name none out of spite</button>
+    <button onclick="goTo('q11')">Recite the entire discography alphabetically</button>
+    <button onclick="goTo('q11')">Walk away because this is exhausting</button>
+</section>
+<!-- QUESTION 11 -->
+<section id="q11" class="screen">
+    <h2>Question 11</h2>
+    <p>Which artist would you like to listen to</p>
+    <button onclick="goTo('q12')">Taylor Swift</button>
+    <button onclick="goTo('q12')">Harry Styles</button>
+    <button onclick="goTo('q12')">LCD Soundsystem</button>
+    <button onclick="goTo('q12')">Nickelback</button>
+    <button onclick="goTo('q12')">Beyoncé</button>
+    <button onclick="goTo('q12')">Olivia Rodrigo</button>
+    <button onclick="goTo('q12')">Metallica</button>
+    <button onclick="goTo('q12')">The Strokes</button>
+    <button onclick="goTo('q12')">BTS</button>
+    <button onclick="goTo('q12')">Imagine Dragons</button>
+    <button onclick="goTo('q12')">One Direction</button>
+    <button onclick="goTo('q12')">Another band/artist </button>
+</section>
+
+<!-- QUESTION 12 -->
+<section id="q12" class="screen">
+    <h2>Question 12</h2>
+    <p>Which Toronto or Canadian team do you most support?</p>
+    <button onclick="goTo('q13')">Toronto Maple Leafs</button>
+    <button onclick="goTo('q13')">Toronto Sceptres</button>
+    <button onclick="goTo('q13')">Toronto Raptors</button>
+    <button onclick="goTo('q13')">Toronto Tempo</button>
+    <button onclick="goTo('q13')">Toronto Blue Jays</button>
+    <button onclick="goTo('q13')">Toronto FC</button>
+    <button onclick="goTo('q13')">AFC Toronto</button>
+    <button onclick="goTo('q13')">Montreal Canadiens</button>
+    <button onclick="goTo('q13')">Vancouver Canucks</button>
+    <button onclick="goTo('q13')">Edmonton Oilers</button>
+</section>
+
+<!-- QUESTION 13 -->
+<section id="q13" class="screen">
+    <h2>Question 13</h2>
+    <p>Now YOU scream about your favorite band. What are you?</p>
+    <button onclick="goTo('result')">A fangirl</button>
+    <button onclick="goTo('result')">A fangirl</button>
+    <button onclick="goTo('result')">Not A fangirl (Totally are)</button>
+    <button onclick="goTo('result')">Still a fangirl</button>
+    <button onclick="goTo('result')">All of the above</button>
+
+</section>
+
+
+
+    <!-- RESULT -->
+    <section id="result" class="screen">
+    <h1>Your Result</h1>
+    <p>You’re a <span class="pink">Fangirl</span>.</p>
+    <p>Congratulations! You are someone who is an extremely enthusiastic and passionate fan of someone or something. </p>
+    </section>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script>
+function goTo(id) {
+    var screens = document.querySelectorAll('.screen');
+    for (var i = 0; i < screens.length; i++) {
+        screens[i].classList.remove('active');
+    }
+
+    var target = document.getElementById(id);
+    if (target) {
+        target.classList.add('active');
+    }
+
+    // Fire confetti when reaching the result screen
+    if (id === 'result') {
+        confetti({
+            particleCount: 200,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
+    }
+}
+</script>
+</script>
+
+</body>
+</html>
